@@ -254,4 +254,4 @@ Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para m
 
 ## Contato
 
-Para questões, suporte ou feedback, entre em contato com a equipe de desenvolvimento em [equipe@exemplo.com]
+Para questões, suporte ou feedback, entre em contato com a equipe de desenvolvimento em Aleluiaxamuzeba@gmail.com
