@@ -1,0 +1,39 @@
+{
+  "name": "backup-saas-backend",
+  "version": "1.0.0",
+  "description": "Backend para o SaaS de Backup Multi-Cloud",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "set BYPASS_AUTH=true && nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "backup",
+    "terraform",
+    "cloud",
+    "aws",
+    "azure",
+    "gcp",
+    "disaster-recovery"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/identity": "^4.9.1",
+    "@azure/storage-blob": "^12.27.0",
+    "@google-cloud/storage": "^7.16.0",
+    "aws-sdk": "^2.1692.0",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.2",
+    "mongoose-paginate-v2": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
